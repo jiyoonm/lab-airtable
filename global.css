@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+    font-family:"Courier New", Courier, monospace;
+    font-size: 24pt;
+  }
+
+  header{
+    font-size:30px;
+    display: inline-block;
+    margin: 10px;
+    width: auto; 
+    height: auto; 
+    text-align: center; 
+    height: auto;
+    padding:6px;
+    font-weight: bold;
+
+  }
+  .flex-container {
+    font-size: 25px;
+    padding: 0;
+    line-height: 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flex-container > div{
+    display: inline-block;
+    border-bottom: 2px dashed;
+    width:500px;
+    padding:15px;
+    height: auto;
+    margin: 10px;
+    overflow: auto;
+  }
+#intro{
+    font-weight: bold;
+}
